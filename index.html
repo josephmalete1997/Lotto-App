@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/balls.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/panels.css">
+    <link rel="stylesheet" href="icons/css/all.min.css">
+    <script src="https://kit.fontawesome.com/062d0051ac.js" crossorigin="anonymous"></script>
+    <title>Instant lotto</title>
+  </head>
+  <body>
+    <main>
+      <div class="panels">
+        <div class="select-nums">
+        </div>
+        <div class="results">
+        </div>
+        <div class="pops-results">
+          <div class="pop"></div>
+          <div class="pop"></div>
+          <div class="pop"></div>
+          <div class="pop"></div>
+          <div class="pop"></div>
+          <div class="pop"></div>
+          <div class="pop"></div>
+        </div>
+      </div>
+
+      <h1 class="view-slip"><i class="fa-solid fa-receipt"></i> Bet slip <span id="count">0</span></h1>
+      <div class="slip">
+        <div class="cancel"><i class="fa-solid fa-times"></i></div>
+        <p class="empty">Your slip is empty</p>
+      </div>
+      <div class="buttons">
+        <select id="select-options">
+          <option value="2">Bet options</option>
+          <option value="1">Bet 1 number</option>
+          <option value="2">Bet 2 numbers</option>
+          <option value="3">Bet 3 numbers</option>
+          <option value="4">Bet 4 numbers</option>
+          <option value="5">Bet 5 numbers</option>
+          <option value="6">Bet 6 numbers</option>
+        </select>
+        <button id="add">Add to slip</button>
+        <button id="play">Play</button>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+    <script src="js/anim.js"></script>
+  </body>
+</html>
